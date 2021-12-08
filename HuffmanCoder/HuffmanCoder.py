@@ -132,8 +132,8 @@ class HuffmanCoder:
 
 if __name__ == "__main__":
 
-    ipString = 'sample string aaaaa eee ccccccccccccccccccc'
-    test = HuffmanCoder(ipString)
+    stringToBeEncoded = 'sample string aaaaa eee ccccccccccccccccccc'
+    test = HuffmanCoder(stringToBeEncoded)
     print()
     test.printEncodedString()
     print()
